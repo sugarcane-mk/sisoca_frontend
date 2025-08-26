@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         submitButton.textContent = "Submit";
         submitButton.disabled = false;
         instructions.textContent = "Processing complete. Results are displayed.";
-      }, 10000); // 10 Seconds your actual processing time
+      }, 2000); // 10 Seconds your actual processing time
   
       // Check if severity is selected
       if (selectedSeverity === "unselect") {
