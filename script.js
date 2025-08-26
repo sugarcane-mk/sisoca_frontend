@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
   
       try {
-        const response = await fetch('http://127.0.0.1:8000/run_model/', {
+        const response = await fetch('http://wksck4wwwwckgswo08wg888s.122.15.85.74.sslip.io/run_model/', {
           method: 'POST',
           body: formData
         });
